@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans" 
+}
+
+p{
+    color: rgb(104, 104, 104);
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ ul{
+    list-style:circle;
+} 
+
+/**/
+header{
+ 
+}
+.nav{
+    height: 80px;
+  
+}
+
+.nav-icon{
+    color: black;
+    margin: 0 20px;
+    transition: all .2s;
+}
+.nav-icon:hover{
+    color: red;
+}
+.collapse .navbar-nav li{
+    transition: all .2s;
+    padding: 0 15px;
+}
+.collapse .navbar-nav a:hover{
+    color: red;
+}
+.collapse .navbar-nav .hot{
+    position: relative;
+}
+.collapse .navbar-nav .hot::after{
+   position: absolute;
+    content: "HOT";
+    background: #ff003c;
+    color: #fff;
+    text-align: center;
+    border-color: #ff003c;
+    border-radius: 8px;
+    font-size: 10px;
+    top: -10px;
+    right: -13px;
+
+}
+/*///////////////////////////////////////////////////*/
+.home{
+    height: 80vh;
+    background-image: url(../img/about_hero.png.webp);
+    background-size: cover;
+
+}
+.home .row {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home .row .home-content h1{
+    color: #012f5f;
+    font-size: 70px;
+    font-weight: 800;
+}
+/*//////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+.form{
+    padding: 80px 0;
+}
+.form .form-content .content input{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 50px;
+}
+.form .form-content .content textarea{
+    width: 100%;
+}
+.form .form-content .content button{
+    text-transform: uppercase;
+    padding: 15px ;
+    color: #fff;
+    background-color: red;
+    margin-top: 30px;
+    border: none;
+}
+.form .form-content .content-2{
+    margin-top: 40px;
+    text-align: center;
+}
+.form .form-content .content-2 h3{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+.form .form-content .content-2 i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+/*////////////////////////////////////////////////////////*/
+footer{
+    padding: 70px 0;
+}
+footer .footer-area .footer-logo{
+    width: 150px;
+    margin-bottom: 40px;
+}
+footer .footer-area .footer-tittle .footer-pera{
+    font-size: 18px;
+}
+footer .footer-area .single-footer-caption .footer-tittle h4{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+footer .footer-area .footer-tittle ul li{
+    color: #012f5f;
+    margin-bottom: 15px;
+}
+footer .footer-area .footer-tittle ul li a{
+    color: #012f5f;
+}
+footer .footer-copy-right{
+    padding-top: 70px;
+}
+ footer .footer-copy-right p {
+    color: #888888;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+}
+.footer-social a{
+    transition: all .5s;
+}
+.footer-social a:hover i{
+    transform: rotatey('180deg');
+    color: red;
+}
+.footer-social a{
+    margin: 0 10px;
+}
